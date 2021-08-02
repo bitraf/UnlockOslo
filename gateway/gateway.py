@@ -245,7 +245,7 @@ doors = {
     'unused-6': DoorInfo('doors/dlock-6'),
     'unused-7': DoorInfo('doors/dlock-7'),
     'unused-8': DoorInfo('doors/dlock-8'),
-    'unused-9': DoorInfo('doors/dlock-9', bolt_sensor=True),
+    'unused-9': DoorInfo('doors/dlock-9'),
     'unused-10': DoorInfo('doors/dlock-10')
 }
 api_users = {}
