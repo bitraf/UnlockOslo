@@ -237,15 +237,15 @@ doors = {
     'erroring-1': DoorInfo('doors/erroring-1'),
     'notresponding-1': DoorInfo('doors/notresponding-1'),
     'dev-0': DoorInfo('doors/dlock-0'),
-    'sorenga-1': DoorInfo('doors/dlock-1', bolt_sensor=True),
-    'hotspare-1': DoorInfo('doors/dlock-2'),
-    'fubiak-1': DoorInfo('doors/dlock-3'),
+    'unused-1': DoorInfo('doors/dlock-1', bolt_sensor=True),
+    'unused-2': DoorInfo('doors/dlock-2'),
+    'unused-3': DoorInfo('doors/dlock-3'),
     'unused-4': DoorInfo('doors/dlock-4'),
-    'origo-1': DoorInfo('doors/dlock-5'),
-    'origo-2': DoorInfo('doors/dlock-6'),
-    'lindeberg-1': DoorInfo('doors/dlock-7'),
-    'deichman-majorstuen': DoorInfo('doors/dlock-8'),
-    'loren-1': DoorInfo('doors/dlock-9', bolt_sensor=True),
+    'unused-5': DoorInfo('doors/dlock-5'),
+    'unused-6': DoorInfo('doors/dlock-6'),
+    'unused-7': DoorInfo('doors/dlock-7'),
+    'unused-8': DoorInfo('doors/dlock-8'),
+    'unused-9': DoorInfo('doors/dlock-9', bolt_sensor=True),
     'unused-10': DoorInfo('doors/dlock-10')
 }
 api_users = {}
