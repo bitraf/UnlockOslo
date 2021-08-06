@@ -1,6 +1,5 @@
-# dlock.trygvis.io
-dlock-gcp ansible_host=dlock.trygvis.io
-dlock-dev ansible_host=dlock-dev.trygvis.io
+# dlock.bitraf.no
+dlock-gw ansible_host=dlock.bitraf.no
 
 dlock-dev20 ansible_host=dlock-dev20.local
 
