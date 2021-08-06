@@ -1,0 +1,3 @@
+web_hostname: dlock.bitraf.no
+mqtt_hostname: '{{ web_hostname }}'
+certbot_host: dlock.bitraf.no
