@@ -75,14 +75,14 @@
 
   - name: nginx site
     template:
-      src: dlock.trygvis.io
-      dest: /etc/nginx/sites-available/dlock.trygvis.io
+      src: dlock.bitraf.no
+      dest: /etc/nginx/sites-available/dlock.bitraf.no
     notify: reload nginx
 
   - name: nginx enable site
     file:
-      src: ../sites-available/dlock.trygvis.io
-      dest: /etc/nginx/sites-enabled/dlock.trygvis.io
+      src: ../sites-available/dlock.bitraf.no
+      dest: /etc/nginx/sites-enabled/dlock.bitraf.no
       state: link
     notify: reload nginx
 
