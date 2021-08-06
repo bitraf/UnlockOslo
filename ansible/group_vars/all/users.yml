@@ -9,9 +9,6 @@ users:
   jonnor:
     authorized_keys: |
       ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCRBQiYf6X7stPARBtfaPdVPkwG5ixmFiWRHhKzKIpbRX3DG2LcJgTWOoqysbs+lAxsMeHXROjkAcyEosxjWb+ng8HuPGP2SSNaECwVI7e/Ey6WEYgU+UrmV0su7f8m1gcmBz4esWfY02k+ojR3MxzrPdSHOnsBmofIgbcqLV/Fozf5FxpKHkneYfbFMcNvXAESnbg8UvMXcxMWbJTiRKntAayB1NJ5WfZADIrCmDhDN52I7AvTOqamdgAGt1pmpuuEacB/rCJqBZyDSpP9cOrnBfA4a6REErHlLK1OuDhBGN1kmhHMRtvmM4xbwgt8U++1zgokHVt4iXZi4jVsowj jon@jon-portable
-  anne:
-    authorized_keys: |
-      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJzJk96IEsfMmASu3Pu/DOB5553PVtTh7pW1mhl0T7aKN1xsWA5TMoVr+ULMEmpFYdRLAw187AxVBhn8Q74F8T0YmFSsXyRbN3HJosEZlZEz1om7ROp4KlmBOJr2cUWMLY+4YzDc9oVHzXJ8DUoKXtMQUSHjzf1Dkyy5KE4srLNE131SNpHjmul0VyVHmyoEl0DiPObO+kOHjCZEwopdkHccbgv5+5H5Siq5j6T5RvM2aK1uY8u5MivaSfcjPX/3aQJDnIvnAgscdEX7RAyuWrMfc1Gw/BNjBZeBJL8x/5uVdbWqBojGvnibw3QQygkCuUy3HoqjPK0uOZPjWXN4o9 akw@Anne-Katrine-Wikestad-Knowit-2.local
   tingo:
     authorized_keys: |
       ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKKM/xmF+qTf6Wc9zXbMA9Mx3qrq6YXHuFKQVStTQS1W tingo@bitraf
