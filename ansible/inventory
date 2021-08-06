@@ -2,13 +2,6 @@
 dlock-gw ansible_host=dlock.bitraf.no
 
 dlock-dev20 ansible_host=dlock-dev20.local
-
-[development]
-dlock-dev20
-
-[gateways]
-dlock-gw
-
 # manually configured
 
 dev-0 ansible_host=dev-0.dlock.bitraf.no
@@ -22,6 +15,12 @@ unused-7 ansible_host=unused-7.dlock.bitraf.no
 unused-8 ansible_host=unused-8.dlock.bitraf.no
 unused-9 ansible_host=unused-9.dlock.bitraf.no
 unused-10 ansible_host=unused-10.dlock.bitraf.no
+
+[development]
+dlock-dev20
+
+[gateways]
+dlock-gw
 
 [doors]
 dev-0
