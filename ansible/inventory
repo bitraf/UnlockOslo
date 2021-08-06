@@ -9,7 +9,7 @@ dlock-dev20
 [gateways]
 dlock-gw
 
-# Generert fra fane 3 i: https://docs.google.com/spreadsheets/d/1b0nk5nfVSesCKCGYtcFE0km2MoKEaWbOUn9ZAVFeRWo/edit#gid=1335904925
+# manually configured
 
 dev-0 ansible_host=dev-0.dlock.bitraf.no
 unused-1 ansible_host=unused-1.dlock.bitraf.no
