@@ -13,13 +13,13 @@
   - name: SSH public key
     copy:
       content: "{{ ssh_public_key }}"
-      dest: "/home/{{ ssh_user }}/.ssh/id_rsa.pub"
+      dest: "/home/{{ ssh_user }}/.ssh/id_ed25519.pub"
       owner: "{{ ssh_user }}"
       mode: 0644
   - name: SSH private key
     copy:
       content: "{{ ssh_private_key }}"
-      dest: "/home/{{ ssh_user }}/.ssh/id_rsa"
+      dest: "/home/{{ ssh_user }}/.ssh/id_ed25519"
       owner: "{{ ssh_user }}"
       mode: 0600
   - name: known_hosts
