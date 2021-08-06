@@ -2,6 +2,4 @@ ssh_public_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHAoo+5dzfbtuoB9hJrEGP9G6FZV
 ssh_private_key: "{{ vault_ssh_call_home_private_key }}"
 ssh_user: dlock-call-home
 ssh_known_hosts: |
-  |1|WfPCpBI6isL00uy1Hfk3DweQk9c=|0qmMEQ0NT7w4YhZ7sD9BivwX3Dc= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLNrfNaZGw2uQB+PRzVcp7n6oVMt/HGGR7IWeH4CNmssWM9J3hS0rxQD6QBlhxHnfPj/5Xl6ztYlXEMa9galxSk=
-  |1|/kWyJWYJMZRbaVsxeGtws9ZllX0=|O+TaqyyoInbPjzlqvoUsUwod6TQ= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLNrfNaZGw2uQB+PRzVcp7n6oVMt/HGGR7IWeH4CNmssWM9J3hS0rxQD6QBlhxHnfPj/5Xl6ztYlXEMa9galxSk=
-
+|1|FKhFh67BCOSiwDxMnV8jTsSY324=|y0WzcxAK1/02bqJPsUPF1YNgeGs= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC2+hXBUU3nLdEjfZ4u3UCZMj+vzFvQBrlDaEaFMlOxF2xBIPshICo1Hwb7hTUC+wxXMYYIDJ4/5Hs7BvMbqpFg=
