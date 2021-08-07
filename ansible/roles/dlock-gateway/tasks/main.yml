@@ -13,6 +13,7 @@
         - git
         - certbot
         - ack
+        - curl
       install_recommends: no
 
   - name: dlock unprivileged user
