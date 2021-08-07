@@ -2,4 +2,4 @@ ssh_public_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHAoo+5dzfbtuoB9hJrEGP9G6FZV
 ssh_private_key: "{{ vault_ssh_call_home_private_key }}"
 ssh_user: dlock-call-home
 ssh_known_hosts: |
-|1|FKhFh67BCOSiwDxMnV8jTsSY324=|y0WzcxAK1/02bqJPsUPF1YNgeGs= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC2+hXBUU3nLdEjfZ4u3UCZMj+vzFvQBrlDaEaFMlOxF2xBIPshICo1Hwb7hTUC+wxXMYYIDJ4/5Hs7BvMbqpFg=
+  |1|FKhFh67BCOSiwDxMnV8jTsSY324=|y0WzcxAK1/02bqJPsUPF1YNgeGs= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC2+hXBUU3nLdEjfZ4u3UCZMj+vzFvQBrlDaEaFMlOxF2xBIPshICo1Hwb7hTUC+wxXMYYIDJ4/5Hs7BvMbqpFg=
