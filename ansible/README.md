@@ -50,3 +50,9 @@ ssh -t door2.dlock.trygvis.io bash
     ht = HtpasswdFile("/etc/mosquitto/conf.d/dlock.passwords")
     ht.users()
     ht.check_password("dlock-gateway", "foo")
+
+## Generate hashes
+
+The hash string for `vault_http_api_credentials_temp` (the part after ';') is generated using the apikey.py script in the gateway directory with the password as input.
+
+The hash strings for `vault_mqtt_passwd` (the part after ':') is generated using `printf <password> | python3 -c 'import crypt; print(crypt.crypt(input(), crypt.METHOD_SHA512))'` with the relevant password as input.
