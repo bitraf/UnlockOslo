@@ -238,7 +238,7 @@ doors = {
     'notresponding-1': DoorInfo('doors/notresponding-1'),
     'dev-0': DoorInfo('doors/dlock-0'),
     'unused-1': DoorInfo('doors/dlock-1'),
-    'unused-2': DoorInfo('doors/dlock-2'),
+    'pg4-f2-office-eof': DoorInfo('doors/dlock-2'),
     'unused-3': DoorInfo('doors/dlock-3'),
     'unused-4': DoorInfo('doors/dlock-4'),
     'unused-5': DoorInfo('doors/dlock-5'),
