@@ -14,6 +14,7 @@
         - certbot
         - ack
         - curl
+        - jq
       install_recommends: no
 
   - name: dlock unprivileged user
