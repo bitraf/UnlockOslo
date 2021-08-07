@@ -24,7 +24,7 @@
       state: directory
   - name: Check out dlock repository
     git:
-      repo: 'https://github.com/jonnor/dlock-oslo'
+      repo: 'https://github.com/bitraf/UnlockOslo'
       dest: /opt/dlock/src
       version: master
       force: yes
