@@ -33,7 +33,7 @@
       chdir: '/opt/dlock/src'
       requirements: './firmware/requirements.txt'
       virtualenv: /opt/dlock/src/venv
-      virtualenv_python: 'python3.5'
+      virtualenv_python: 'python3.7'
   - name: Set permissions on dlock-firmware dir
     file:
       path: /opt/dlock
