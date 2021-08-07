@@ -36,7 +36,7 @@ ssh -t door2.dlock.trygvis.io bash
 
 ## Initialize a new firmware device
 
-    ansible-playbook bootstrap.yml --extra-vars "hosts=dlock-99.local user=trygvis"
+    ansible-playbook bootstrap.yml --extra-vars "hosts=dlock-99.local user=pi" --ask-pass
 
 ## Certbot
 
