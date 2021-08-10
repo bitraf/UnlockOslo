@@ -1,7 +1,7 @@
 - name: restart dlock-gateway
   systemd:
     name: dlock-gateway
-    state: reloaded
+    state: restarted
 
 - name: reload nginx
   systemd:
