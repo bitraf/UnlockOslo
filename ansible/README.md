@@ -51,6 +51,14 @@ ssh -t door2.dlock.trygvis.io bash
     ht.users()
     ht.check_password("dlock-gateway", "foo")
 
+## Generating secure passwords
+
+Use [pwgen](https://github.com/tytso/pwgen) or another appropriate tool to generate passwords for the system. Remember to make the passwords long enough. pwgen is available as a package for Debian. pwgen example:
+
+    pwgen -nyc -1 16
+
+this generates a password that is 16 characters long.
+
 ## Generate hashes
 
 The hash string for `vault_http_api_credentials_temp` (the part after ';') is generated using the apikey.py script in the gateway directory with the password as input.
