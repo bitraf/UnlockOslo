@@ -1,0 +1,15 @@
+stock,item,req. quantity,OrderNo,Notes
+,dlock board,1,self-fabricated PCB,
+,base-board,1,self-fabricated lasercut,
+,hex standoffs M2.5 10mm OD4.5,4,buy from Wurth,Wurth rack at Bitraf has 11mm long brass standoffs
+,hex nut M2.5,4,,stock in Wurth rack at Bitraf
+,machine screw M2.5x8,4,,stock in Wurth rack at Bitraf
+,screw terminal,1,kjell.com 39072,"'sukkerbit’ 6 terminaler (39072 is 12, enough for two dlocks)"
+,connection wires,6,kjell.com 39515,Single-stranded wire for connecting the board to the screw terminal
+,,,,
+,Raspberry Pi3,1,1690-1000-ND,Single Board Computer
+,"Power Supply 24V, 1 A+, EU plug",1,1470-3162-ND,PSU
+,memory card microSDHC 8GB MLC,1,1052-1252-ND,memory card
+,PLASTIC BOX CLEAR/BLACK,1,SRRB85P06C10B-ND,comes with screws for baseboard and lid
+,,,,
+,power supply 12V 36W,1,1470-3642-ND,Alternative power supply – for 12V locks
