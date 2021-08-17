@@ -237,7 +237,7 @@ doors = {
     'erroring-1': DoorInfo('doors/erroring-1'),
     'notresponding-1': DoorInfo('doors/notresponding-1'),
     'dev-0': DoorInfo('doors/dlock-0'),
-    'unused-1': DoorInfo('doors/dlock-1'),
+    'bv9-f2-entrance': DoorInfo('doors/dlock-1'),
     'pg4-f2-office-eof': DoorInfo('doors/dlock-2'),
     'unused-3': DoorInfo('doors/dlock-3'),
     'unused-4': DoorInfo('doors/dlock-4'),
