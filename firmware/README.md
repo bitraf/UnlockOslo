@@ -59,7 +59,7 @@ This can be fixed by doing the following:
 
 List existing SSH tunnel connections. Should be one line per connected device
 
-    netstat -lntp4 | grep :20
+    ss -lntp4 | grep :20
 
 Find `sshd` process with the port in question
 
