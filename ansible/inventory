@@ -5,8 +5,8 @@ dlock-dev20 ansible_host=dlock-dev20.local
 # manually configured
 
 dev-0 ansible_host=dev-0.dlock.bitraf.no
-unused-1 ansible_host=unused-1.dlock.bitraf.no
-unused-2 ansible_host=unused-2.dlock.bitraf.no
+dlock-1 ansible_host=dlock-1.local
+dlock-2 ansible_host=dlock-2.local
 unused-3 ansible_host=unused-3.dlock.bitraf.no
 unused-4 ansible_host=unused-4.dlock.bitraf.no
 unused-5 ansible_host=unused-5.dlock.bitraf.no
@@ -24,8 +24,8 @@ dlock-gw
 
 [doors]
 dev-0
-unused-1
-unused-2
+dlock-1
+dlock-2
 unused-3
 unused-4
 unused-5
