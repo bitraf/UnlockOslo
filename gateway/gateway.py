@@ -153,7 +153,7 @@ def setup_mqtt_client():
 def create_mqtt_client(broker_url):
     broker_info = urlparse(broker_url)
 
-    client = mqtt.Client()
+    client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
     if broker_info.username:
         client.username_pw_set(broker_info.username, broker_info.password)
 
