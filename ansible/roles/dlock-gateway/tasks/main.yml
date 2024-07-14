@@ -9,7 +9,7 @@
         - python3
         - python3-pip
         - virtualenv
-        - python-setuptools
+        - python3-setuptools
         - git
         - certbot
         - ack
