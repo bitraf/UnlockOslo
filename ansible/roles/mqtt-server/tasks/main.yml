@@ -7,7 +7,7 @@
       name:
         - mosquitto
         - mosquitto-clients
-        - python-passlib
+        - python3-passlib
       install_recommends: no
 
   - name: Mosquitto configuration
