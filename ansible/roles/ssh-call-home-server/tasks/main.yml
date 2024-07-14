@@ -5,7 +5,7 @@
     apt:
       install_recommends: no
       name:
-        - netcat
+        - netcat-traditional
   - name: Add unprivileged user
     user:
       name: "{{ ssh_user }}"
