@@ -1,6 +1,3 @@
-[submodule "hardware/thirdparty/kicad-utils"]
-	path = hardware/thirdparty/kicad-utils
-	url = https://trygvis.io/git/2016/07/kicad-utils.git
 [submodule "hardware/thirdparty/kicad-ESP8266"]
 	path = hardware/thirdparty/kicad-ESP8266
 	url = https://github.com/jdunmire/kicad-ESP8266
