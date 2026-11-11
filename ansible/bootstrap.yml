@@ -1,6 +1,13 @@
 - hosts: '{{ hosts }}'
   remote_user: '{{ user }}'
   become: True
+  roles:
+    - lusers
+    - superusers
+
+- hosts: '{{ hosts }}'
+  remote_user: '{{ user }}'
+  become: True
   tasks:
   - name: Packages
     apt:
@@ -15,10 +22,3 @@
       state: absent
       remove: yes
       force: yes # in case some process still uses the user
-
-- hosts: '{{ hosts }}'
-  remote_user: '{{ user }}'
-  become: True
-  roles:
-    - lusers
-    - superusers
