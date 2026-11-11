@@ -1,12 +1,12 @@
-- hosts: '{{ hosts }}'
-  remote_user: '{{ user }}'
+- hosts: 
+    all
   become: True
   roles:
     - lusers
     - superusers
 
-- hosts: '{{ hosts }}'
-  remote_user: '{{ user }}'
+- hosts: 
+    all
   become: True
   tasks:
   - name: Packages
